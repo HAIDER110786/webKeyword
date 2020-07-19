@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: #FF1D58;
+    font-family: sans-serif;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.inputDiv{
+    width: 500px;
+}
+
+.inputDiv input{
+    width: inherit;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size:20px;
+}
+
+.inputDiv input:focus{
+    outline: none;
+}
